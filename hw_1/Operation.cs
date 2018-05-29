@@ -6,11 +6,5 @@ using System.Threading.Tasks;
 
 namespace hw_1
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var menu = new Menu();
-        }
-    }
+    public delegate double Operation(double leftOperand, double rightOperand);
 }
